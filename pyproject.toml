@@ -1,0 +1,13 @@
+[project]
+name = "onnx-arm-inference-engine"
+version = "0.1.0"
+description = "Quantized ONNX inference engine for ARM industrial PCs, with reproducible benchmarks."
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 110

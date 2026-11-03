@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 环境与密钥
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# 模型与数据（体积大，走 Release 或下载脚本）
+models/
+*.onnx
+*.pt
+*.pth
+*.gguf
+data/raw/
+*.m4a
+*.mp4
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
+desktop.ini
